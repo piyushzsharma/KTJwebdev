@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library Platform</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">MusicLibrary</div>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#featured-playlists">Playlists</a></li>
+                <li><a href="#recommended-albums">Albums</a></li>
+                <li><a href="#user-reviews">Reviews</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="hamburger-menu">
+                <ul>
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#featured-playlists">Playlists</a></li>
+                    <li><a href="#recommended-albums">Albums</a></li>
+                    <li><a href="#user-reviews">Reviews</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro">
+        <div class="intro-content">
+            <div class="intro-text">
+                <h1>Welcome to MusicLibrary</h1>
+                <p>Your ultimate music companion</p>
+                <a href="#featured-playlists" class="btn">Featured Playlists</a>
+            </div>
+            <div class="intro-image">
+                <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="#4a90e2" />
+
+
+                    <g fill="#fff">
+                        <circle cx="100" cy="150" r="10">
+                            <animate attributeName="cy" values="150;130;150" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <rect x="95" y="100" width="10" height="50" rx="5">
+                            <animate attributeName="y" values="100;80;100" dur="2s" repeatCount="indefinite" />
+                        </rect>
+
+                        <circle cx="200" cy="130" r="10">
+                            <animate attributeName="cy" values="130;110;130" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <rect x="195" y="80" width="10" height="50" rx="5">
+                            <animate attributeName="y" values="80;60;80" dur="2s" repeatCount="indefinite" />
+                        </rect>
+
+                        <circle cx="300" cy="170" r="10">
+                            <animate attributeName="cy" values="170;150;170" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <rect x="295" y="120" width="10" height="50" rx="5">
+                            <animate attributeName="y" values="120;100;120" dur="2s" repeatCount="indefinite" />
+                        </rect>
+
+                        <circle cx="400" cy="110" r="10">
+                            <animate attributeName="cy" values="110;90;110" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <rect x="395" y="60" width="10" height="50" rx="5">
+                            <animate attributeName="y" values="60;40;60" dur="2s" repeatCount="indefinite" />
+                        </rect>
+                    </g>
+
+
+                    <g fill="#fff" transform="translate(400, 200)">
+                        <path d="M50 50 a40 40 0 1 1 80 0 h-10 a30 30 0 1 0 -60 0 h-10 z" />
+                        <rect x="40" y="50" width="10" height="40" rx="5">
+                            <animate attributeName="height" values="40;60;40" dur="2s" repeatCount="indefinite" />
+                        </rect>
+                        <rect x="150" y="50" width="10" height="40" rx="5">
+                            <animate attributeName="height" values="40;60;40" dur="2s" repeatCount="indefinite" />
+                        </rect>
+                    </g>
+
+
+                    <text x="50%" y="85%" font-family="Arial" font-size="40" fill="#fff" text-anchor="middle"
+                        dy=".3em">MusicLibrary
+                        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+                    </text>
+                    <text x="50%" y="93%" font-family="Arial" font-size="20" fill="#fff" text-anchor="middle"
+                        dy=".3em">Your Ultimate Music Companion
+                        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+                    </text>
+                </svg>
+
+
+
+
+
+
+                <!-- <img src="https://th.bing.com/th/id/OIG2.LrTS8HMxTT24XvgKkFdt?pid=ImgGn" alt=""> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Playlists Section -->
+    <section id="featured-playlists" class="featured-playlists">
+        <h2>Featured Playlists</h2>
+        <p>Discover our curated playlists</p>
+        <div class="playlists">
+            <div class="playlist-card">
+                <div><img
+                        src="https://imgs.search.brave.com/UNatoCUvMsRjp9q_KYdXf8C--7DQ__QRQMfBiyDqY74/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IwL2Ix/L2RjL2IwYjFkYzdk/MzZlNDU4MjY2ZjJl/YmRhNzQ5ZTNiYTk1/LmpwZw"
+                        alt="Playlist 1">
+                    <div class="card-content">
+                        <h3>Playlist 1</h3>
+                        <p>Best hits of the year</p>
+                        <!-- <span class="song-count1">15 songs</span> -->
+                    </div>
+                </div>
+                <div>
+                    <img src="https://imgs.search.brave.com/sCToL_KJQ8qzeuTqkpyhambPI_lW5_pPZ6We5YB8Aow/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubGlmZXN0eWxl/YXNpYS5jb20vd3At/Y29udGVudC91cGxv/YWRzL3NpdGVzLzcv/MjAyNC8wNS8wMzE0/MTUzOS9TaG93cy1s/aWtlLXRoZS1LZHJh/bWEtUXVlZW4tb2Yt/VGVhcnMtMi01MDB4/NTAwLmpwZw"
+                        alt="Playlist 2">
+                    <div class="card-content">
+                        <h3>Playlist 2</h3>
+                        <p>Romantic Hits</p>
+                        <!-- <span class="song-count2">9 songs</span> -->
+                    </div>
+                </div>
+                <div>
+                    <img src="https://imgs.search.brave.com/qUAfMG9xSTB3jcuHWgZek4egSjzRaK_qgfo4KO8s4D4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2I1LzQy/LzkyL2I1NDI5MmM2/ZTM3OWIxYTVhN2Mx/NjUwYzBhMDRjMTU3/LmpwZw"
+                        alt="Playlist 3">
+                    <div class="card-content">
+                        <h3>Playlist 3</h3>
+                        <p>Pop Songs</p>
+                        <!-- <span class="song-count3">12 songs</span> -->
+                    </div>
+                </div>
+                <div>
+                    <img src="https://imgs.search.brave.com/xm8UQAexsGogCuPSsyOTzCHbe5QGm1umJ5KO9Jf1ZWw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/d3luay5pbi91bnNh/ZmUvMjQ4eDI0OC9m/aWx0ZXJzOm5vX3Vw/c2NhbGUoKTpzdHJp/cF9leGlmKCk6Zm9y/bWF0KHdlYnApL2h0/dHA6Ly9zMy1hcC1z/b3V0aGVhc3QtMS5h/bWF6b25hd3MuY29t/L2JzYmNtcy9tdXNp/Yy9zcmNoX3VuaXN5/c2luZm9fTTAzNDc3/MS5qcGc"
+                        alt="Playlist 4">
+                    <div class="card-content">
+                        <h3>Playlist 4</h3>
+                        <p>Old is Gold</p>
+                        <!-- <span class="song-count4">11 songs</span> -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <label class="follow-btn">
+            <input type="checkbox">
+            <span>Follow</span>
+        </label>
+    </section>
+
+    <!-- Recommended Albums Section -->
+    <section id="recommended-albums" class="recommended-albums">
+        <h2>Recommended Albums</h2>
+        <p>Our top album picks</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search albums...">
+            <span class="search-icon">&#128269;</span>
+        </div>
+        <div class="albums">
+            <div class="album-card">
+                <img src="https://pics.craiyon.com/2023-11-24/NUhBFH04SaKMHTAWSCsEqg.webp" alt="Album 1">
+                <div class="album-content">
+                    <h3>Heart-Break Songs</h3>
+                    <p>Arjit Singh</p>
+                    <button class="know-more">Know More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews Section -->
+    <section id="user-reviews" class="user-reviews">
+        <h2>User Reviews</h2>
+        <p>What our users are saying</p>
+        <div class="user-rev">
+            <div class="reviews">
+                <div class="review-card">
+                    <img src="https://imgs.search.brave.com/M0AOLaiXHT1TlPqqAo2qvYZ0GkqK0MjB-5D3N_2eoQw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGZwcy5nZy9wZnBz/Lzk4NjEtb3RmMS5w/bmc"
+                        alt="User 1">
+                    <div class="review-content">
+                        <h3>Levi Ackerman</h3>
+                        <p>Great platform!</p>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="review-card">
+                        <img src="https://i.pinimg.com/originals/69/d9/9a/69d99a2e07eb4a0c50e076887b3e3f1a.jpg"
+                            alt="User 2">
+                        <div class="review-content">
+                            <h3>Virat Kohli</h3>
+                            <p>Better than Spotify and Yt Music</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="review-form">
+                <h3>Submit Your Review</h3>
+                <form>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Your review" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><img
+                    src="https://1.bp.blogspot.com/-E7Q8QGQi8jU/WImcvZPvYQI/AAAAAAAACTw/0Er2C5lpPrkRx_JMFTMU0ifRdjS3e4XJQCLcB/s1600/VEKTOR+ICON7.png"
+                    alt="FB"></a>
+            <a href="https://x.com" target="_blank" class="social-icon"><img
+                    src="https://th.bing.com/th/id/OIP.wvOQEvpiAyv7s2_c_2yG-QHaHa?rs=1&pid=ImgDetMain" alt="X"></a>
+            <a href="https:instagram.com" target="_blank" class="social-icon"><img
+                    src="https://th.bing.com/th/id/OIP.dFrmtxIe8wpJzzflEUvQbAAAAA?rs=1&pid=ImgDetMain" alt="IG"></a>
+        </div>
+        <div class="footer-links">
+            <a href="https://example.com/terms" target="_blank">Terms and Conditions</a>
+            <a href="https://example.com/privacy" target="_blank">Privacy Policy</a>
+        </div>
+        <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+    </footer>
+</body>
+
+</html>
